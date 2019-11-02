@@ -1,0 +1,21 @@
+object Main extends App                     {
+    
+    var str="hi roja yash hi roja yash"
+    
+      import scala.collection.mutable.HashMap
+      
+      var hm=HashMap.empty[String,Int]
+    
+    for(i<- str.split(" "))
+    {
+        if(hm.contains(i))
+        {
+            hm.put(i,hm(i)+1)
+         }
+      else
+        {
+        hm.put(i,1)
+        }
+    }
+    println(hm)
+                                            }
