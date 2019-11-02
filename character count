@@ -1,0 +1,21 @@
+object Main extends App                     {
+    
+    var str="hiyashyashyash"
+    
+      import scala.collection.mutable.ListMap
+      
+      var hm=ListMap.empty[Char,Int]
+    
+    for(i<- str)
+    {
+        if(hm.contains(i))
+        {
+            hm.put(i,hm(i)+1)
+         }
+      else
+        {
+        hm.put(i,1)
+        }
+    }
+    println(hm)
+                                            }
