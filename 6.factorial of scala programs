@@ -1,0 +1,30 @@
+object Main extends App {
+    //iterative way 
+    def factorial(n:Int):Int={
+         var f=1
+        for(i<- 1 to n by 1)
+        {
+            f=f*i
+           // println(f)
+        }
+        f }
+       println(factorial(5))
+    
+ //using recursion
+    def fact(num:Int):Int={
+        if(num==0)
+        return 1
+        else
+        return num*fact(num-1)
+         }
+       println( fact(4))
+       
+       //pattern matching with case statement
+    def fac(n:Int):Int = n match {
+        case 0=>1
+        case n=>n*fact(n-1)
+    }
+    println(fac(6))
+    }
+
+    
