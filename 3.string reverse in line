@@ -1,0 +1,19 @@
+object Main extends App                     {
+    
+    var str1="roja hi yaswanth  "
+    var str=" "
+    
+    
+   // def revers(str3:String):String={
+   for(j<- str1.split(" "))
+   {
+        
+                       for(i<-j.length-1  to 0 by -1)
+                        {
+                          str=str+j.charAt(i)
+                          
+                          }
+                          str=str+" "
+    }
+    println(str)
+    
