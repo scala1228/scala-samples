@@ -1,0 +1,26 @@
+object Main extends App {
+    
+    var str="sruthi"
+    var res=""
+    
+    
+    def reverse(word:String):String={
+  
+                      for(i<-word.length-1  to 0 by -1)
+                        {
+                          res=res+word.charAt(i)
+                          
+                          }
+        res       
+    }
+    println(reverse(str))
+    
+    if(res==str)
+    {
+        println("is polindrome")
+    }
+    else
+    {
+        println("not polindrome")
+    }
+ }
