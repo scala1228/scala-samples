@@ -1,0 +1,24 @@
+object Main extends App{
+    // Your code here!var 
+    
+    var num=8
+    var prime=true
+    for(i<- 2 to num-1 by 1)
+    {
+        if(num%i==0)
+        {
+            prime=false
+        }
+        
+    }
+    if(prime)
+    {
+        println("is prime")
+    }
+    else
+    {
+        println("is not prime")
+    }
+  //  println("XXXXXXXX")
+
+}
