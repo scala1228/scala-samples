@@ -1,0 +1,21 @@
+object Main extends App{
+    // Your code here!
+    var arr=Array(9,8,1,4,3,11,2)
+    var temp=0
+        for(i<- arr.indices)
+        {
+            for(j<- arr.indices)
+            {
+                if(arr(i) > arr(j))
+                {
+                    temp=arr(i)
+                    arr(i)=arr(j)
+                    arr(j)=temp
+                    
+                }
+            }
+           // arr.foreach(println)
+        }
+    
+    arr.foreach(println)
+}
