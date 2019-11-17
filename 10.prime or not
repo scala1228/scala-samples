@@ -1,0 +1,22 @@
+object Main extends App{
+   var num=97
+        var count=0
+       
+    for(i<-1 to num)
+    {
+        if(num%i==0)
+        {
+         count=count+1
+        } 
+        
+    }  
+         if(count==2)
+             {
+                println("is prime")
+             }
+             else
+             {
+             println("it is not prime")
+             }
+ 
+    }
