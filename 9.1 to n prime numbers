@@ -1,0 +1,23 @@
+object Main extends App{
+   var num=100
+    for(i<- 1 to num)
+    {
+        var count=0
+       var res=""
+    for(j<-1 to i)
+    {
+        if(i%j==0)
+        {
+         count=count+1
+       } 
+        
+    }  
+     if(count==2)
+     {
+ println(i)
+// res=i+","
+     }
+  //  print(res)
+    }
+
+}
