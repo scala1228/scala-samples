@@ -1,0 +1,23 @@
+object Main extends App{
+    // You
+    var str="Hi yaswanth kumar how are you"
+    var res=""
+    for(word<-str.split(" "))
+    {
+        
+        if(word.contains("kumar") | word.contains("you"))
+        {
+            
+         for(i<-word.length-1 to 0 by -1)
+          {
+         res=res+word.charAt(i)
+           }
+       res=res+" "
+    }
+
+    }
+    println(res)
+    
+  
+}
+
